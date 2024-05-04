@@ -227,7 +227,7 @@ const AllFood = () => {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "http://https://food-website-omega-ten.vercel.app/:3001/api/products"
+          "https://food-website-tau-topaz.vercel.app/api/products"
         );
         setProduct(response.data);
         setFoodOnly(response.data.filter((item) => item.category === "food"));
