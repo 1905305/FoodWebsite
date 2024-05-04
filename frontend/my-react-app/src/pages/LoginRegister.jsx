@@ -31,7 +31,7 @@ const LoginRegister = () => {
   const registerUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `http://localhost:3002/api/signup`,
+        `http://https://food-website-omega-ten.vercel.app/:3002/api/signup`,
         currentUser
       );
       const { user, token } = response.data;
@@ -49,7 +49,7 @@ const LoginRegister = () => {
   const loginUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `http://localhost:3002/api/login`,
+        `http://https://food-website-omega-ten.vercel.app/:3002/api/login`,
         currentUser
       );
       const { user, token } = response.data;

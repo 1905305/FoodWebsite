@@ -226,7 +226,9 @@ const AllFood = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("http://localhost:3001/api/products");
+        const response = await axios.get(
+          "http://https://food-website-omega-ten.vercel.app/:3001/api/products"
+        );
         setProduct(response.data);
         setFoodOnly(response.data.filter((item) => item.category === "food"));
         setBeveragesOnly(
