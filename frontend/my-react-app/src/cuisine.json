@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "BRIYANI",
+    "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/11/biryani-recipe-480x270.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 2,
+    "name": "BUTTER CHICKEN",
+    "img": "https://i.ndtvimg.com/i/2017-10/butter-chicken_620x350_71508489938.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 3,
+    "name": "DOSA",
+    "img": "https://pipingpotcurry.com/wp-content/uploads/2020/11/Dosa-recipe-plain-sada-dosa-Piping-Pot-Curry.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 4,
+    "name": "NAAN",
+    "img": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/02/naan-recipe-1-500x500.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 5,
+    "name": "SAMOSA",
+    "img": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/09/samosa-recipe-1.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 6,
+    "name": "VADA PAV",
+    "img": "https://i0.wp.com/cdn.cdnparenting.com/articles/2019/09/09124956/What-Are-The-Best-Foods-To-Eat-In-Mumbai_3.jpg?resize=700%2C450&ssl=1",
+    "category": "Indian"
+  },
+  {
+    "id": 7,
+    "name": "DHOKLA",
+    "img": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/03/Khaman-Dhokla-Recipe-500x375.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 8,
+    "name": "GULAB JAMUN",
+    "img": "https://www.whiskaffair.com/wp-content/uploads/2020/09/Gulab-Jamun-1-3.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 9,
+    "name": "FISH CURRY",
+    "img": "https://www.whiskaffair.com/wp-content/uploads/2021/06/Kerala-Fish-Curry-2.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 10,
+    "name": "CHAAT",
+    "img": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/12/pani-puri-recipe-2.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 11,
+    "name": "KUNG PAO CHICKEN",
+    "img": "https://i.pinimg.com/originals/1a/e8/1b/1ae81b33b9a4f07e0d7461e1e1c7c611.jpg",
+    "category": "Chinese"
+  },
+  {
+    "id": 12,
+    "name": "PEKING ROAST DUCK",
+    "img": "https://dinnerthendessert.com/wp-content/uploads/2019/05/Peking-Duck-6.jpg",
+    "category": "Chinese"
+  },
+  {
+    "id": 13,
+    "name": "MAPO TOFU",
+    "img": "https://www.curiouscuisiniere.com/wp-content/uploads/2016/06/Mapo-Tofu-Recipe-First.jpg",
+    "category": "Chinese"
+  },
+  {
+    "id": 14,
+    "name": "CHOWMEIN",
+    "img": ""
+  }
+]

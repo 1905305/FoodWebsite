@@ -1,0 +1,41 @@
+.latest-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  margin: 50px auto; /* Center horizontally and add margin */
+  border-radius: 10px;
+  color: white;
+  width: 50%; /* Width limited to 50% of the container */
+  background: rgba(6, 6, 87, 0.705);
+}
+
+.category-text {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(16, 17, 9);
+  height: 50px;
+  padding: 0 15px; /* Increased padding for better clickability */
+  width: fit-content;
+  border-radius: 10px;
+  transition: background-color 0.4s ease-out; /* Transition for hover effect */
+}
+
+.category-text:hover {
+  background-color: #4793af;
+}
+
+.latest-nav div {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .latest-nav {
+    margin-top: 30px;
+    width: 90%; /* Adjusted width for smaller screens */
+    gap: 10px;
+  }
+}
