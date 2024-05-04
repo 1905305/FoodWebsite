@@ -31,7 +31,7 @@ const LoginRegister = () => {
   const registerUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `http://https://https://food-website-tau-topaz.vercel.app//api/signup`,
+        `https://food-website-tau-topaz.vercel.app/api/signup`,
         currentUser
       );
       const { user, token } = response.data;
@@ -49,7 +49,7 @@ const LoginRegister = () => {
   const loginUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `http://https://https://food-website-tau-topaz.vercel.app//api/login`,
+        `https://food-website-tau-topaz.vercel.app/api/login`,
         currentUser
       );
       const { user, token } = response.data;
