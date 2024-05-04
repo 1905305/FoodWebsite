@@ -16,7 +16,7 @@ app.use("/api", products);
 
 mongoose
   .connect(
-    "mongodb+srv://1905305:tniI5p8M4wpPDewI@cluster0.3mhv9rh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://rah283507:3mKXkIlEY2mBlYLu@cluster0.t9jgdcf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => console.log("conneced"));
 
