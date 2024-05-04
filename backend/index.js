@@ -8,18 +8,19 @@ const port = 3002;
 app.use(express.json());
 app.use(cors());
 
-const user = require("../backend/Routes/userRoutes");
-app.use("/api", user);
+const userRoutes = require("../backend/Routes/userRoutes");
+app.use("/api/users", userRoutes);
 
-const products = require("../backend/Routes/productRoutes");
-app.use("/api", products);
+const productRoutes = require("../backend/Routes/productRoutes");
+app.use("/api/products", productRoutes);
 
 mongoose
   .connect(
     "mongodb+srv://rah283507:3mKXkIlEY2mBlYLu@cluster0.t9jgdcf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
-  .then(() => console.log("conneced"));
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Error connecting to MongoDB:", err));
 
 app.listen(port, () => {
-  console.log("Example app listeining on port {port}");
+  console.log(`Example app listening on port ${port}`);
 });
