@@ -14,9 +14,6 @@ app.use("/api", user);
 const products = require("../backend/Routes/productRoutes");
 app.use("/api", products);
 
-const cuisinefood = require("../backend/Routes/cuisineRoutes");
-app.use("/api", cuisinefood);
-
 mongoose
   .connect(
     "mongodb+srv://1905305:tniI5p8M4wpPDewI@cluster0.3mhv9rh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
