@@ -9,10 +9,10 @@ app.use(express.json());
 app.use(cors());
 
 const userRoutes = require("../backend/Routes/userRoutes");
-app.use("/api/users", userRoutes);
+app.use("/api", userRoutes);
 
 const productRoutes = require("../backend/Routes/productRoutes");
-app.use("/api/products", productRoutes);
+app.use("/api", productRoutes);
 
 mongoose
   .connect(
