@@ -31,7 +31,7 @@ const LoginRegister = () => {
   const registerUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `https://food-website-one-liard.vercel.app/api/signup`,
+        `https://food-website-6z5i.vercel.app/api/signup`,
         currentUser
       );
       const { user, token } = response.data;
@@ -49,7 +49,7 @@ const LoginRegister = () => {
   const loginUser = async (currentUser) => {
     try {
       const response = await axios.post(
-        `https://food-website-one-liard.vercel.app/api/login`,
+        `https://food-website-6z5i.vercel.app/api/login`,
         currentUser
       );
       const { user, token } = response.data;
