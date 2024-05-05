@@ -15,7 +15,7 @@ const Shop = () => {
     async function fetchData() {
       try {
         const response = await axios.get(
-          `http://https://food-website-omega-ten.vercel.app/:3002/api/products`
+          `https://food-website-omega-ten.vercel.app/:3002/api/products`
         );
         console.log(response.data);
         setProduct(response.data);
