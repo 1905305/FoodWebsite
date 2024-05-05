@@ -7,7 +7,7 @@ const {
   getCategories,
   postCategories,
   getSingleProduct,
-} = require("../controllers/cuisineController");
+} = require("../Controllers/cuisineController");
 
 router.get("/cuisinefood", getcuisinefood);
 
