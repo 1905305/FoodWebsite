@@ -16,7 +16,7 @@ app.use("/api", productRoutes);
 
 mongoose
   .connect(
-    "mongodb+srv://anishxavier12:uPCbuQwHr6lf9tdS@cluster0.bwjij3q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://anishxavier12:uPCbuQwHr6lf9tdS@cluster0.bwjij3q.mongodb.net/FoodAppDB?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Error connecting to MongoDB:", err));
